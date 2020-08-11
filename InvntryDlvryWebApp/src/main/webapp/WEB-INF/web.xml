@@ -1,0 +1,87 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AfterLogin</servlet-name>
+  	<display-name>AfterLogin</display-name>
+  	<description></description>
+  	<servlet-class>com.afterlogin.AfterLogin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogOut</servlet-name>
+  	<display-name>LogOut</display-name>
+  	<description></description>
+  	<servlet-class>com.logout.LogOut</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddItemServLet</servlet-name>
+  	<display-name>AddItemServLet</display-name>
+  	<description></description>
+  	<servlet-class>com.additem.AddItemServLet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteItemServlet</servlet-name>
+  	<display-name>DeleteItemServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.deleteitem.DeleteItemServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ShowDamagedItems</servlet-name>
+  	<display-name>ShowDamagedItems</display-name>
+  	<description></description>
+  	<servlet-class>com.damage.ShowDamagedItems</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ConfirmDeliveryServlet</servlet-name>
+  	<display-name>ConfirmDeliveryServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.confirmdlvry.ConfirmDeliveryServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ReturnDeliveryServlet</servlet-name>
+  	<display-name>ReturnDeliveryServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.returndelivery.ReturnDeliveryServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DoorLockedServlet</servlet-name>
+  	<display-name>DoorLockedServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.doorlocked.DoorLockedServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AfterLogin</servlet-name>
+  	<url-pattern>/AfterLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogOut</servlet-name>
+  	<url-pattern>/LogOut</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddItemServLet</servlet-name>
+  	<url-pattern>/AddItemServLet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteItemServlet</servlet-name>
+  	<url-pattern>/DeleteItemServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ShowDamagedItems</servlet-name>
+  	<url-pattern>/ShowDamagedItems</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ConfirmDeliveryServlet</servlet-name>
+  	<url-pattern>/ConfirmDeliveryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ReturnDeliveryServlet</servlet-name>
+  	<url-pattern>/ReturnDeliveryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DoorLockedServlet</servlet-name>
+  	<url-pattern>/DoorLockedServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
